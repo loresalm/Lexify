@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "lexify-svelte-app",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -21,7 +21,7 @@
     "svelte": "^3.55.0"
   },
   "dependencies": {
-    "firebase": "^12.7.0",
+    "firebase": "^10.7.0",
     "sirv-cli": "^2.0.0",
     "svelte-motion": "^0.12.2"
   }
