@@ -1,0 +1,212 @@
+{
+  "italian_english": {
+    "q1": { "italian": "Dov'è l'uscita?", "options": ["Where is the exit?", "Where is the car?", "Where is the dog?"], "correct": "Where is the exit?" },
+    "q2": { "italian": "Ho fame.", "options": ["I am hungry.", "I am tired.", "I am lost."], "correct": "I am hungry." },
+    "q3": { "italian": "A dopo.", "options": ["See you later.", "See you yesterday.", "See you never."], "correct": "See you later." }
+  },
+  "english_italian": {
+    "q4": { "english": "Where is the exit?", "options": ["Dov'è l'uscita?", "Dov'è la macchina?", "Dov'è il cane?"], "correct": "Dov'è l'uscita?" },
+    "q5": { "english": "I am hungry.", "options": ["Ho fame.", "Ho sonno.", "Ho perso."], "correct": "Ho fame." },
+    "q6": { "english": "See you later.", "options": ["A dopo.", "A domani.", "Addio."], "correct": "A dopo." }
+  },
+  "italian_french": {
+    "q7": { "italian": "Come ti chiami?", "options": ["Comment t'appelles-tu ?", "Où habites-tu ?", "Quel âge as-tu ?"], "correct": "Comment t'appelles-tu ?" },
+    "q8": { "italian": "Il cielo è blu.", "options": ["Le ciel est bleu.", "La mer est verte.", "Le soleil est rouge."], "correct": "Le ciel est bleu." },
+    "q9": { "italian": "Buona notte.", "options": ["Bonne nuit.", "Bonjour.", "Bonsoir."], "correct": "Bonne nuit." }
+  },
+  "french_italian": {
+    "q10": { "french": "Comment t'appelles-tu ?", "options": ["Come ti chiami?", "Dove abiti?", "Quanti anni hai?"], "correct": "Come ti chiami?" },
+    "q11": { "french": "Le ciel est bleu.", "options": ["Il cielo è blu.", "Il mare è verde.", "Il sole è rosso."], "correct": "Il cielo è blu." },
+    "q12": { "french": "Bonne nuit.", "options": ["Buona notte.", "Buongiorno.", "Buonasera."], "correct": "Buona notte." }
+  },
+  "italian_german": {
+    "q13": { "italian": "Dove lavori?", "options": ["Wo arbeitest du?", "Was machst du?", "Wer bist du?"], "correct": "Wo arbeitest du?" },
+    "q14": { "italian": "Il conto, per favore.", "options": ["Die Rechnung, bitte.", "Das Menü, bitte.", "Ein Wasser, bitte."], "correct": "Die Rechnung, bitte." },
+    "q15": { "italian": "Mi dispiace.", "options": ["Es tut mir leid.", "Es ist okay.", "Vielen Dank."], "correct": "Es tut mir leid." }
+  },
+  "german_italian": {
+    "q16": { "german": "Wo arbeitest du?", "options": ["Dove lavori?", "Cosa fai?", "Chi sei?"], "correct": "Dove lavori?" },
+    "q17": { "german": "Die Rechnung, bitte.", "options": ["Il conto, per favore.", "Il menu, per favore.", "Un'acqua, per favore."], "correct": "Il conto, per favore." },
+    "q18": { "german": "Es tut mir leid.", "options": ["Mi dispiace.", "Va bene.", "Grazie mille."], "correct": "Mi dispiace." }
+  },
+  "italian_dutch": {
+    "q19": { "italian": "È troppo tardi.", "options": ["Het is te laat.", "Het is te vroeg.", "Het is te ver."], "correct": "Het is te laat." },
+    "q20": { "italian": "Mi piace questo.", "options": ["Ik vind dit leuk.", "Ik haat dit.", "Ik ken dit."], "correct": "Ik vind dit leuk." },
+    "q21": { "italian": "Siamo pronti.", "options": ["We zijn klaar.", "We zijn moe.", "We zijn weg."], "correct": "We zijn klaar." }
+  },
+  "dutch_italian": {
+    "q22": { "dutch": "Het is te laat.", "options": ["È troppo tardi.", "È troppo presto.", "È troppo lontano."], "correct": "È troppo tardi." },
+    "q23": { "dutch": "Ik vind dit leuk.", "options": ["Mi piace questo.", "Lo odio.", "Lo conosco."], "correct": "Mi piace questo." },
+    "q24": { "dutch": "We zijn klaar.", "options": ["Siamo pronti.", "Siamo stanchi.", "Siamo partiti."], "correct": "Siamo pronti." }
+  },
+  "italian_spanish": {
+    "q25": { "italian": "Cosa desidera mangiare?", "options": ["¿Qué desea comer?", "¿Qué quiere beber?", "¿Dónde está el baño?"], "correct": "¿Qué desea comer?" },
+    "q26": { "italian": "Ho dimenticato le chiavi.", "options": ["He olvidado las llaves.", "He perdido mi cartera.", "He cerrado la puerta."], "correct": "He olvidado las llaves." },
+    "q27": { "italian": "Buon viaggio!", "options": ["¡Buen viaje!", "¡Feliz cumpleaños!", "¡Buena suerte!"], "correct": "¡Buen viaje!" }
+  },
+  "spanish_italian": {
+    "q28": { "spanish": "¿Qué desea comer?", "options": ["Cosa desidera mangiare?", "Cosa vuole bere?", "Dov'è il bagno?"], "correct": "Cosa desidera mangiare?" },
+    "q29": { "spanish": "He olvidado las llaves.", "options": ["Ho dimenticato le chiavi.", "Ho perso il portafoglio.", "Ho chiuso la porta."], "correct": "Ho dimenticato le chiavi." },
+    "q30": { "spanish": "¡Buen viaje!", "options": ["Buon viaggio!", "Buon compleanno!", "Buona fortuna!"], "correct": "Buon viaggio!" }
+  },
+  "italian_portuguese": {
+    "q31": { "italian": "Siamo arrivati.", "options": ["Nós chegamos.", "Nós partimos.", "Nós estamos esperando."], "correct": "Nós chegamos." },
+    "q32": { "italian": "Chiamami domani.", "options": ["Ligue-me amanhã.", "Escreva-me hoje.", "Ajude-me agora."], "correct": "Ligue-me amanhã." },
+    "q33": { "italian": "È bellissimo.", "options": ["É lindo.", "É feio.", "É caro."], "correct": "É lindo." }
+  },
+  "portuguese_italian": {
+    "q34": { "portuguese": "Nós chegamos.", "options": ["Siamo arrivati.", "Siamo partiti.", "Stiamo aspettando."], "correct": "Siamo arrivati." },
+    "q35": { "portuguese": "Ligue-me amanhã.", "options": ["Chiamami domani.", "Scrivimi oggi.", "Aiutami adesso."], "correct": "Chiamami domani." },
+    "q36": { "portuguese": "É lindo.", "options": ["È bellissimo.", "È brutto.", "È caro."], "correct": "È bellissimo." }
+  },
+  "english_french": {
+    "q37": { "english": "What is your name?", "options": ["Comment vous appelez-vous ?", "Où allez-vous ?", "Quel âge avez-vous ?"], "correct": "Comment vous appelez-vous ?" },
+    "q38": { "english": "I am lost.", "options": ["Je suis perdu.", "Je suis fatigué.", "Je suis heureux."], "correct": "Je suis perdu." },
+    "q39": { "english": "Enjoy your meal.", "options": ["Bon appétit.", "Bon voyage.", "Bonne chance."], "correct": "Bon appétit." }
+  },
+  "french_english": {
+    "q40": { "french": "Comment vous appelez-vous ?", "options": ["What is your name?", "Where are you going?", "How old are you?"], "correct": "What is your name?" },
+    "q41": { "french": "Je suis perdu.", "options": ["I am lost.", "I am tired.", "I am happy."], "correct": "I am lost." },
+    "q42": { "french": "Bon appétit.", "options": ["Enjoy your meal.", "Safe trip.", "Good luck."], "correct": "Enjoy your meal." }
+  },
+  "english_german": {
+    "q43": { "english": "Is it free?", "options": ["Ist es kostenlos?", "Ist es offen?", "Ist es besetzt?"], "correct": "Ist es kostenlos?" },
+    "q44": { "english": "I am a student.", "options": ["Ich bin Student.", "Ich bin Lehrer.", "Ich bin Arzt."], "correct": "Ich bin Student." },
+    "q45": { "english": "Where is the station?", "options": ["Wo ist der Bahnhof?", "Wo ist die Schule?", "Wo ist der Markt?"], "correct": "Wo ist der Bahnhof?" }
+  },
+  "german_english": {
+    "q46": { "german": "Ist es kostenlos?", "options": ["Is it free?", "Is it open?", "Is it busy?"], "correct": "Is it free?" },
+    "q47": { "german": "Ich bin Student.", "options": ["I am a student.", "I am a teacher.", "I am a doctor."], "correct": "I am a student." },
+    "q48": { "german": "Wo ist der Bahnhof?", "options": ["Where is the station?", "Where is the school?", "Where is the market?"], "correct": "Where is the station?" }
+  },
+  "english_dutch": {
+    "q49": { "english": "It is raining.", "options": ["Het regent.", "De zon schijnt.", "Het sneeuwt."], "correct": "Het regent." },
+    "q50": { "english": "Can you help me?", "options": ["Kunt u mij helpen?", "Kunt u mij zien?", "Kunt u mij horen?"], "correct": "Kunt u mij helpen?" },
+    "q51": { "english": "I don't know.", "options": ["Ik weet het niet.", "Ik begrijp het niet.", "Ik wil het niet."], "correct": "Ik weet het niet." }
+  },
+  "dutch_english": {
+    "q52": { "dutch": "Het regent.", "options": ["It is raining.", "The sun is shining.", "It is snowing."], "correct": "It is raining." },
+    "q53": { "dutch": "Kunt u mij helpen?", "options": ["Can you help me?", "Can you see me?", "Can you hear me?"], "correct": "Can you help me?" },
+    "q54": { "dutch": "Ik weet het niet.", "options": ["I don't know.", "I don't understand.", "I don't want it."], "correct": "I don't know." }
+  },
+  "english_spanish": {
+    "q55": { "english": "I am hungry.", "options": ["Tengo hambre.", "Tengo sed.", "Tengo sueño."], "correct": "Tengo hambre." },
+    "q56": { "english": "Good morning.", "options": ["Buenos días.", "Buenas noches.", "Buenas tardes."], "correct": "Buenos días." },
+    "q57": { "english": "How much is it?", "options": ["¿Cuánto cuesta?", "¿Dónde está?", "¿Qué hora es?"], "correct": "¿Quanto cuesta?" }
+  },
+  "spanish_english": {
+    "q58": { "spanish": "Tengo hambre.", "options": ["I am hungry.", "I am thirsty.", "I am sleepy."], "correct": "I am hungry." },
+    "q59": { "spanish": "Buenos días.", "options": ["Good morning.", "Good night.", "Good afternoon."], "correct": "Good morning." },
+    "q60": { "spanish": "¿Cuánto cuesta?", "options": ["How much is it?", "Where is it?", "What time is it?"], "correct": "How much is it?" }
+  },
+  "english_portuguese": {
+    "q61": { "english": "Wait a minute.", "options": ["Espere um minuto.", "Ande depressa.", "Pare agora."], "correct": "Espere um minuto." },
+    "q62": { "english": "I love this song.", "options": ["Eu amo esta música.", "Eu gosto deste filme.", "Eu odeio este barulho."], "correct": "Eu amo esta música." },
+    "q63": { "english": "Where is the beach?", "options": ["Onde fica a praia?", "Onde fica o hotel?", "Onde fica o aeroporto?"], "correct": "Onde fica a praia?" }
+  },
+  "portuguese_english": {
+    "q64": { "portuguese": "Espere um minuto.", "options": ["Wait a minute.", "Walk fast.", "Stop now."], "correct": "Wait a minute." },
+    "q65": { "portuguese": "Eu amo esta música.", "options": ["I love this song.", "I like this movie.", "I hate this noise."], "correct": "I love this song." },
+    "q66": { "portuguese": "Onde fica a praia?", "options": ["Where is the beach?", "Where is the hotel?", "Where is the airport?"], "correct": "Where is the beach?" }
+  },
+  "french_german": {
+    "q67": { "french": "Où est la gare ?", "options": ["Wo ist der Bahnhof?", "Wo ist die Bank?", "Wo ist der Park?"], "correct": "Wo ist der Bahnhof?" },
+    "q68": { "french": "C'est trop cher.", "options": ["Das ist zu teuer.", "Das ist zu billig.", "Das ist zu weit."], "correct": "Das ist zu teuer." },
+    "q69": { "french": "Je voudrais un thé.", "options": ["Ich möchte einen Tee.", "Ich möchte einen Kaffee.", "Ich möchte ein Bier."], "correct": "Ich möchte einen Tee." }
+  },
+  "german_french": {
+    "q70": { "german": "Wo ist der Bahnhof?", "options": ["Où est la gare ?", "Où est la banque ?", "Où est le parc ?"], "correct": "Où est la gare ?" },
+    "q71": { "german": "Das ist zu teuer.", "options": ["C'est trop cher.", "C'est trop bon marché.", "C'est trop loin."], "correct": "C'est trop cher." },
+    "q72": { "german": "Ich möchte einen Tee.", "options": ["Je voudrais un thé.", "Je voudrais un café.", "Je voudrais une bière."], "correct": "Je voudrais un thé." }
+  },
+  "french_dutch": {
+    "q73": { "french": "C'est une bonne idée.", "options": ["Dat is een goed idee.", "Dat is een probleem.", "Dat is jammer."], "correct": "Dat is een goed idee." },
+    "q74": { "french": "J'habite ici.", "options": ["Ik woon hier.", "Ik werk hier.", "Ik ben hier."], "correct": "Ik woon hier." },
+    "q75": { "french": "Quelle heure est-il ?", "options": ["Hoe laat is het?", "Welke dag is het?", "Waar ben je?"], "correct": "Hoe laat is het?" }
+  },
+  "dutch_french": {
+    "q76": { "dutch": "Dat is een goed idee.", "options": ["C'est une bonne idée.", "C'est un problème.", "C'est dommage."], "correct": "C'est une bonne idée." },
+    "q77": { "dutch": "Ik woon hier.", "options": ["J'habite ici.", "Je travaille ici.", "Je suis ici."], "correct": "J'habite ici." },
+    "q78": { "dutch": "Hoe laat is het?", "options": ["Quelle heure est-il ?", "Quel jour est-on ?", "Où es-tu ?"], "correct": "Quelle heure est-il ?" }
+  },
+  "french_spanish": {
+    "q79": { "french": "Je suis d'accord.", "options": ["Estoy de acuerdo.", "No sé.", "Es posible."], "correct": "Estoy de acuerdo." },
+    "q80": { "french": "Il fait froid.", "options": ["Hace frío.", "Hace calor.", "Llueve."], "correct": "Hace frío." },
+    "q81": { "french": "Bonne chance.", "options": ["Buena suerte.", "Buen provecho.", "Buen viaje."], "correct": "Buena suerte." }
+  },
+  "spanish_french": {
+    "q82": { "spanish": "Estoy de acuerdo.", "options": ["Je suis d'accord.", "Je ne sais pas.", "C'est possible."], "correct": "Je suis d'accord." },
+    "q83": { "spanish": "Hace frío.", "options": ["Il fait froid.", "Il fait chaud.", "Il pleut."], "correct": "Il fait froid." },
+    "q84": { "spanish": "Buena suerte.", "options": ["Bonne chance.", "Bon appétit.", "Bon voyage."], "correct": "Bonne chance." }
+  },
+  "french_portuguese": {
+    "q85": { "french": "J'ai oublié.", "options": ["Eu esqueci.", "Eu terminei.", "Eu entendi."], "correct": "Eu esqueci." },
+    "q86": { "french": "Est-ce loin ?", "options": ["É longe?", "É caro?", "É perto?"], "correct": "É longe?" },
+    "q87": { "french": "À demain.", "options": ["Até amanhã.", "Até logo.", "Até breve."], "correct": "Até amanhã." }
+  },
+  "portuguese_french": {
+    "q88": { "portuguese": "Eu esqueci.", "options": ["J'ai oublié.", "J'ai fini.", "J'ai compris."], "correct": "J'ai oublié." },
+    "q89": { "portuguese": "É longe?", "options": ["Est-ce loin ?", "Est-ce cher ?", "Est-ce proche ?"], "correct": "Est-ce loin ?" },
+    "q90": { "portuguese": "Até amanhã.", "options": ["À demain.", "À bientôt.", "À plus tard."], "correct": "À demain." }
+  },
+  "german_dutch": {
+    "q91": { "german": "Herzlichen Glückwunsch!", "options": ["Gefeliciteerd!", "Eet smakelijk!", "Goede reis!"], "correct": "Gefeliciteerd!" },
+    "q92": { "german": "Ich verstehe nicht.", "options": ["Ik begrijp het niet.", "Ik weet het niet.", "Ik denk het niet."], "correct": "Ik begrijp het niet." },
+    "q93": { "german": "Können Sie helfen?", "options": ["Kunt u helpen?", "Kunt u praten?", "Kunt u gaan?"], "correct": "Kunt u helpen?" }
+  },
+  "dutch_german": {
+    "q94": { "dutch": "Gefeliciteerd!", "options": ["Herzlichen Glückwunsch!", "Guten Appetit!", "Gute Reise!"], "correct": "Herzlichen Glückwunsch!" },
+    "q95": { "dutch": "Ik begrijp het niet.", "options": ["Ich verstehe nicht.", "Ich weiß nicht.", "Ich glaube nicht."], "correct": "Ich verstehe nicht." },
+    "q96": { "dutch": "Kunt u helpen?", "options": ["Können Sie helfen?", "Können Sie sprechen?", "Können Sie gehen?"], "correct": "Können Sie helfen?" }
+  },
+  "german_spanish": {
+    "q97": { "german": "Wie spät ist es?", "options": ["¿Qué hora es?", "¿Qué día es?", "¿Cómo estás?"], "correct": "¿Qué hora es?" },
+    "q98": { "german": "Vorsicht!", "options": ["¡Cuidado!", "¡Rápido!", "¡Despacio!"], "correct": "¡Cuidado!" },
+    "q99": { "german": "Ich komme aus Deutschland.", "options": ["Soy de Alemania.", "Vivo en Alemania.", "Amo a Alemania."], "correct": "Soy de Alemania." }
+  },
+  "spanish_german": {
+    "q100": { "spanish": "¿Qué hora es?", "options": ["Wie spät ist es?", "Welcher Tag ist es?", "Wie geht es dir?"], "correct": "Wie spät ist es?" },
+    "q101": { "spanish": "¡Cuidado!", "options": ["Vorsicht!", "Schnell!", "Langsam!"], "correct": "Vorsicht!" },
+    "q102": { "spanish": "Soy de Alemania.", "options": ["Ich komme aus Deutschland.", "Ich lebe in Deutschland.", "Ich liebe Deutschland."], "correct": "Ich komme aus Deutschland." }
+  },
+  "german_portuguese": {
+    "q103": { "german": "Bis bald.", "options": ["Até logo.", "Bom dia.", "Obrigado."], "correct": "Até logo." },
+    "q104": { "german": "Ich weiß es nicht.", "options": ["Eu não sei.", "Eu não posso.", "Eu não quero."], "correct": "Eu não sei." },
+    "q105": { "german": "Wo ist das Hotel?", "options": ["Onde é o hotel?", "Onde é o parque?", "Onde é o carro?"], "correct": "Onde é o hotel?" }
+  },
+  "portuguese_german": {
+    "q106": { "portuguese": "Até logo.", "options": ["Bis bald.", "Guten Tag.", "Danke."], "correct": "Bis bald." },
+    "q107": { "portuguese": "Eu não sei.", "options": ["Ich weiß es nicht.", "Ich kann nicht.", "Ich will nicht."], "correct": "Ich weiß es nicht." },
+    "q108": { "portuguese": "Onde é o hotel?", "options": ["Wo ist das Hotel?", "Wo ist der Park?", "Wo ist das Auto?"], "correct": "Wo ist das Hotel?" }
+  },
+  "dutch_spanish": {
+    "q109": { "dutch": "Hoe gaat het?", "options": ["¿Cómo estás?", "¿Quién eres?", "¿A dónde vas?"], "correct": "¿Cómo estás?" },
+    "q110": { "dutch": "Ik wil bier.", "options": ["Quisiera una cerveza.", "Quisiera un agua.", "Quisiera un café."], "correct": "Quisiera una cerveza." },
+    "q111": { "dutch": "Het is druk.", "options": ["Está lleno.", "Está vacío.", "Está lejos."], "correct": "Está lleno." }
+  },
+  "spanish_dutch": {
+    "q112": { "spanish": "¿Cómo estás?", "options": ["Hoe gaat het?", "Wie ben je?", "Waar ga je heen?"], "correct": "Hoe gaat het?" },
+    "q113": { "spanish": "Quisiera una cerveza.", "options": ["Ik wil een biertje.", "Ik wil water.", "Ik wil koffie."], "correct": "Ik wil een biertje." },
+    "q114": { "spanish": "Está lleno.", "options": ["Het is druk.", "Het is leeg.", "Het is ver."], "correct": "Het is druk." }
+  },
+  "dutch_portuguese": {
+    "q115": { "dutch": "Sla linksaf.", "options": ["Vire à esquerda.", "Vire à direita.", "Siga em frente."], "correct": "Vire à esquerda." },
+    "q116": { "dutch": "Ik ben moe.", "options": ["Estou cansado.", "Estou feliz.", "Estou ocupado."], "correct": "Estou cansado." },
+    "q117": { "dutch": "Mijn telefoon is leeg.", "options": ["Meu telefone está sem bateria.", "Meu telefone sumiu.", "Meu telefone quebrou."], "correct": "Meu telefone está sem bateria." }
+  },
+  "portuguese_dutch": {
+    "q118": { "portuguese": "Vire à esquerda.", "options": ["Sla linksaf.", "Sla rechtsaf.", "Ga rechtdoor."], "correct": "Sla linksaf." },
+    "q119": { "portuguese": "Estou cansado.", "options": ["Ik ben moe.", "Ik ben blij.", "Ik heb het druk."], "correct": "Ik ben moe." },
+    "q120": { "portuguese": "Meu telefone está sem bateria.", "options": ["Mijn telefoon is leeg.", "Mijn telefoon is weg.", "Mijn telefoon is stuk."], "correct": "Mijn telefoon is leeg." }
+  },
+  "spanish_portuguese": {
+    "q121": { "spanish": "¿Dónde vives?", "options": ["Onde você mora?", "Quem é você?", "Como você está?"], "correct": "Onde você mora?" },
+    "q122": { "spanish": "Me gusta la comida.", "options": ["Gosto da comida.", "Gosto da bebida.", "Gosto da música."], "correct": "Gosto da comida." },
+    "q123": { "spanish": "Mañana será mejor.", "options": ["Amanhã será melhor.", "Hoje foi bom.", "Ontem foi difícil."], "correct": "Amanhã será melhor." }
+  },
+  "portuguese_spanish": {
+    "q124": { "portuguese": "Onde você mora?", "options": ["¿Dónde vives?", "¿Quién eres?", "¿Cómo estás?"], "correct": "¿Dónde vives?" },
+    "q125": { "portuguese": "Gosto da comida.", "options": ["Me gusta la comida.", "Me gusta la bebida.", "Me gusta la música."], "correct": "Me gusta la comida." },
+    "q126": { "portuguese": "Amanhã será melhor.", "options": ["Mañana será mejor.", "Hoy fue bueno.", "Ayer fue difícil."], "correct": "Mañana será mejor." }
+  }
+}

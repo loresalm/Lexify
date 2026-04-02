@@ -1,0 +1,182 @@
+{
+  "q1": {
+    "spanish": "Si tienes un momento esta tarde, podríamos tomar un café juntos y hablar de tus planes para el próximo mes.",
+    "options": [
+      "Se hai un momento questo pomeriggio, potremmo prendere un caffè insieme e parlare dei tuoi piani per il prossimo mese.",
+      "Se domani hai tempo, possiamo studiare insieme tutta la sera.",
+      "Se vuoi possiamo uscire subito senza parlare di lavoro."
+    ],
+    "correct": "Se hai un momento questo pomeriggio, potremmo prendere un caffè insieme e parlare dei tuoi piani per il prossimo mese."
+  },
+  "q2": {
+    "spanish": "Normalmente preparo algo sencillo para cenar porque llego bastante cansado del trabajo.",
+    "options": [
+      "Di solito preparo qualcosa di semplice per cena perché arrivo abbastanza stanco dal lavoro.",
+      "Ogni sera cucino un pasto molto elaborato per i miei amici.",
+      "Preferisco mangiare fuori tutte le sere dopo il lavoro."
+    ],
+    "correct": "Di solito preparo qualcosa di semplice per cena perché arrivo abbastanza stanco dal lavoro."
+  },
+  "q3": {
+    "spanish": "¿Podrías explicarme otra vez cómo funciona esta aplicación en el teléfono?",
+    "options": [
+      "Potresti spiegarmi di nuovo come funziona questa applicazione sul telefono?",
+      "Puoi prestarmi il tuo telefono per fare una chiamata?",
+      "Sai dove ho lasciato il mio telefono ieri?"
+    ],
+    "correct": "Potresti spiegarmi di nuovo come funziona questa applicazione sul telefono?"
+  },
+  "q4": {
+    "spanish": "Antes de salir de casa, siempre reviso si he cerrado bien las ventanas.",
+    "options": [
+      "Prima di uscire di casa controllo sempre se ho chiuso bene le finestre.",
+      "Quando torno a casa apro tutte le finestre.",
+      "Dimentico spesso dove ho messo le chiavi."
+    ],
+    "correct": "Prima di uscire di casa controllo sempre se ho chiuso bene le finestre."
+  },
+  "q5": {
+    "spanish": "Mientras esperaba el tren, escuché música y respondí algunos mensajes.",
+    "options": [
+      "Mentre aspettavo il treno, ho ascoltato musica e ho risposto ad alcuni messaggi.",
+      "Ho perso il treno perché sono arrivato troppo tardi.",
+      "Durante il viaggio ho dormito tutto il tempo."
+    ],
+    "correct": "Mentre aspettavo il treno, ho ascoltato musica e ho risposto ad alcuni messaggi."
+  },
+  "q6": {
+    "spanish": "Si mañana hace buen tiempo, me gustaría salir a correr por el parque temprano.",
+    "options": [
+      "Se domani fa bel tempo, mi piacerebbe andare a correre nel parco presto.",
+      "Se domani piove resterò a casa a guardare la televisione.",
+      "Preferisco correre la sera molto tardi."
+    ],
+    "correct": "Se domani fa bel tempo, mi piacerebbe andare a correre nel parco presto."
+  },
+  "q7": {
+    "spanish": "Olvidé comprar leche en el supermercado, así que tendré que volver más tarde.",
+    "options": [
+      "Ho dimenticato di comprare il latte al supermercato, quindi dovrò tornare più tardi.",
+      "Ho già comprato tutto quello che serve per la settimana.",
+      "Il supermercato oggi è chiuso tutto il giorno."
+    ],
+    "correct": "Ho dimenticato di comprare il latte al supermercato, quindi dovrò tornare più tardi."
+  },
+  "q8": {
+    "spanish": "Mi hermano suele llamarme por la noche para contarme cómo le fue en el trabajo.",
+    "options": [
+      "Mio fratello di solito mi chiama la sera per raccontarmi com'è andata al lavoro.",
+      "Mio fratello lavora sempre di notte in ufficio.",
+      "Io telefono a mio fratello solo durante le vacanze."
+    ],
+    "correct": "Mio fratello di solito mi chiama la sera per raccontarmi com'è andata al lavoro."
+  },
+  "q9": {
+    "spanish": "Sería mejor salir un poco antes para evitar el tráfico de la hora punta.",
+    "options": [
+      "Sarebbe meglio uscire un po' prima per evitare il traffico dell'ora di punta.",
+      "Il traffico di solito è molto leggero la mattina.",
+      "Preferisco guidare molto lentamente nel traffico."
+    ],
+    "correct": "Sarebbe meglio uscire un po' prima per evitare il traffico dell'ora di punta."
+  },
+  "q10": {
+    "spanish": "Después de terminar el trabajo, fui al gimnasio durante una hora.",
+    "options": [
+      "Dopo aver finito il lavoro sono andato in palestra per un'ora.",
+      "Sono tornato subito a casa dopo il lavoro.",
+      "Non mi piace fare sport dopo il lavoro."
+    ],
+    "correct": "Dopo aver finito il lavoro sono andato in palestra per un'ora."
+  },
+  "q11": {
+    "spanish": "Aunque estaba bastante cansado, decidí terminar el libro antes de dormir.",
+    "options": [
+      "Anche se ero abbastanza stanco, ho deciso di finire il libro prima di dormire.",
+      "Sono andato subito a dormire senza leggere.",
+      "Ho iniziato un nuovo libro molto lungo."
+    ],
+    "correct": "Anche se ero abbastanza stanco, ho deciso di finire il libro prima di dormire."
+  },
+  "q12": {
+    "spanish": "¿Sabes si hay una farmacia cerca que esté abierta a esta hora?",
+    "options": [
+      "Sai se c'è una farmacia vicina che è aperta a quest'ora?",
+      "Sai dove si trova il ristorante più economico?",
+      "La farmacia chiude sempre molto presto."
+    ],
+    "correct": "Sai se c'è una farmacia vicina che è aperta a quest'ora?"
+  },
+  "q13": {
+    "spanish": "Este fin de semana queremos limpiar la casa y organizar un poco el garaje.",
+    "options": [
+      "Questo fine settimana vogliamo pulire la casa e sistemare un po' il garage.",
+      "Questo fine settimana partiremo per un lungo viaggio.",
+      "Preferiamo passare tutto il weekend a lavorare."
+    ],
+    "correct": "Questo fine settimana vogliamo pulire la casa e sistemare un po' il garage."
+  },
+  "q14": {
+    "spanish": "Siempre llevo una botella de agua conmigo cuando salgo a caminar por la ciudad.",
+    "options": [
+      "Porto sempre con me una bottiglia d'acqua quando esco a camminare per la città.",
+      "Bevo solo acqua quando sono a casa.",
+      "Non mi piace camminare in città."
+    ],
+    "correct": "Porto sempre con me una bottiglia d'acqua quando esco a camminare per la città."
+  },
+  "q15": {
+    "spanish": "Cuando llegues a casa, avísame para saber que todo está bien.",
+    "options": [
+      "Quando arrivi a casa, fammi sapere così so che va tutto bene.",
+      "Quando arrivi a casa, spegni tutte le luci.",
+      "Quando arrivi a casa, prepara la cena."
+    ],
+    "correct": "Quando arrivi a casa, fammi sapere così so che va tutto bene."
+  },
+  "q16": {
+    "spanish": "Estaba pensando en aprender a cocinar platos nuevos durante las vacaciones.",
+    "options": [
+      "Stavo pensando di imparare a cucinare piatti nuovi durante le vacanze.",
+      "Durante le vacanze non voglio cucinare niente.",
+      "Preferisco mangiare sempre gli stessi piatti."
+    ],
+    "correct": "Stavo pensando di imparare a cucinare piatti nuovi durante le vacanze."
+  },
+  "q17": {
+    "spanish": "Muchas personas leen las noticias en el teléfono mientras viajan al trabajo.",
+    "options": [
+      "Molte persone leggono le notizie sul telefono mentre vanno al lavoro.",
+      "Molte persone guardano film al lavoro.",
+      "Alcune persone dormono tutto il giorno."
+    ],
+    "correct": "Molte persone leggono le notizie sul telefono mentre vanno al lavoro."
+  },
+  "q18": {
+    "spanish": "Si necesitas ayuda con la mudanza, puedo venir el sábado por la mañana.",
+    "options": [
+      "Se hai bisogno di aiuto con il trasloco, posso venire sabato mattina.",
+      "Sabato mattina devo lavorare tutto il giorno.",
+      "Non posso aiutarti con le scatole."
+    ],
+    "correct": "Se hai bisogno di aiuto con il trasloco, posso venire sabato mattina."
+  },
+  "q19": {
+    "spanish": "Ayer pasé casi toda la tarde organizando documentos y limpiando mi escritorio.",
+    "options": [
+      "Ieri ho passato quasi tutto il pomeriggio a organizzare documenti e pulire la mia scrivania.",
+      "Ieri ho viaggiato tutta la giornata.",
+      "Ieri non ho fatto niente al lavoro."
+    ],
+    "correct": "Ieri ho passato quasi tutto il pomeriggio a organizzare documenti e pulire la mia scrivania."
+  },
+  "q20": {
+    "spanish": "Si tienes alguna pregunta, no dudes en llamarme cuando quieras.",
+    "options": [
+      "Se hai qualche domanda, non esitare a chiamarmi quando vuoi.",
+      "Non voglio ricevere telefonate oggi.",
+      "Puoi scrivermi solo domani mattina."
+    ],
+    "correct": "Se hai qualche domanda, non esitare a chiamarmi quando vuoi."
+  }
+}

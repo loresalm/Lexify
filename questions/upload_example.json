@@ -1,0 +1,47 @@
+[
+  {
+    "correct": "Mi dispiace, ma non posso aiutarti con questo problema",
+    "german": "Es tut mir leid, aber ich kann dir bei diesem Problem nicht helfen",
+    "options": [
+      "Mi dispiace, ma non posso aiutarti con questo problema",
+      "Mi dispiace, ma non posso sostenerti in questa questione",
+      "Scusami, ma non riesco ad assisterti con questa difficoltà"
+    ]
+  },
+  {
+    "correct": "Dovremmo incontrarci domani pomeriggio per discutere il progetto",
+    "german": "Wir sollten uns morgen Nachmittag treffen, um das Projekt zu besprechen",
+    "options": [
+      "Dovremmo incontrarci domani pomeriggio per discutere il progetto",
+      "Potremmo vederci domani sera per parlare del lavoro",
+      "Bisognerebbe trovarci domani pomeriggio per dibattere il piano"
+    ]
+  },
+  {
+    "correct": "Non ho ancora deciso se accettare l'offerta di lavoro",
+    "german": "Ich habe noch nicht entschieden, ob ich das Jobangebot annehme",
+    "options": [
+      "Non ho ancora deciso se accettare l'offerta di lavoro",
+      "Non ho già scelto se prendere la proposta lavorativa",
+      "Non mi sono ancora determinato ad accogliere l'opportunità professionale"
+    ]
+  },
+  {
+    "correct": "La riunione è stata rinviata a causa di un imprevisto del direttore",
+    "german": "Das Meeting wurde wegen eines unvorhergesehenen Ereignisses des Direktors verschoben",
+    "options": [
+      "La riunione è stata rinviata a causa di un imprevisto del direttore",
+      "L'incontro è stato posticipato per un evento inatteso del responsabile",
+      "La seduta è stata ritardata a motivo di una circostanza imprevista del capo"
+    ]
+  },
+  {
+    "correct": "Sarebbe meglio che tu verificassi i dati prima di inviare il rapporto",
+    "german": "Es wäre besser, wenn du die Daten überprüfst, bevor du den Bericht sendest",
+    "options": [
+      "Sarebbe meglio che tu verificassi i dati prima di inviare il rapporto",
+      "Converrebbe che tu controllassi le informazioni prima di mandare la relazione",
+      "Sarebbe preferibile che tu esaminassi i numeri prima di trasmettere il resoconto"
+    ]
+  }
+]
