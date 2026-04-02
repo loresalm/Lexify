@@ -4,7 +4,7 @@
   import { db } from "./firebase";
 
   export let userId;
-  export let libraries = []; // [{ id, fromLang, toLang, questionCount }]
+  export let libraries = []; // [{ id, fromLang, toLang, questionCount }] ...
 
   const dispatch = createEventDispatcher();
 
