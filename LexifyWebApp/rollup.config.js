@@ -8,7 +8,6 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import terser from '@rollup/plugin-terser';
 import css from 'rollup-plugin-css-only';
-import replace from '@rollup/plugin-replace';
 import { spawn } from 'child_process';
 
 const production = !process.env.ROLLUP_WATCH;
