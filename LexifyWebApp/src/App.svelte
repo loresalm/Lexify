@@ -25,7 +25,7 @@
   import UploadQuestions from "./UploadQuestions.svelte";
   import Button from "./Button.svelte";
   import GlassCard from "./GlassCard.svelte";
-  import LibrarySelect from "./LibrarySelect.svelte";
+  import LibrarySelect from "./Libraryselect.svelte";
 
   /* ---------------- STATE ---------------- */
   let user = null;
