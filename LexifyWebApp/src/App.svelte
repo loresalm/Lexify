@@ -65,27 +65,42 @@
   });
 
   /* ---------------- AUTH & LOAD ---------------- */
-  onMount(() => {
-    getRedirectResult(auth)
-      .then((result) => { if (result?.user) console.log("Login success"); })
-      .catch((e) => console.error("Redirect error:", e));
+  /* ---------------- AUTH & LOAD ---------------- */
+onMount(async () => {
+  try {
+    // 1. Wait for the redirect result FIRST
+    const result = await getRedirectResult(auth);
+    if (result?.user) {
+      console.log("Redirect login success:", result.user.email);
+      // The observer below (onAuthStateChanged) will handle the screen switch
+    }
+  } catch (e) {
+    console.error("Redirect error:", e);
+  }
 
-    onAuthStateChanged(auth, async (u) => {
-      try {
+  // 2. Now listen for the auth state
+  onAuthStateChanged(auth, async (u) => {
+    loading = true; // Show loading while we verify
+    try {
+      if (u) {
         user = u;
-        if (!u) { screen = "auth"; return; }
         userId = u.uid;
         await ensureUserDoc(userId);
         await reloadLibraries();
-        screen = "library";
-      } catch (e) {
-        console.error("Startup error:", e);
-        screen = "auth"; 
-      } finally {
-        loading = false;
+        screen = "library"; // Successfully logged in
+      } else {
+        user = null;
+        userId = null;
+        screen = "auth"; // Truly not logged in
       }
-    });
+    } catch (e) {
+      console.error("Startup error:", e);
+      screen = "auth"; 
+    } finally {
+      loading = false; // Only stop loading once we know where the user belongs
+    }
   });
+});
 
   /* ---------------- LIBRARIES ---------------- */
   async function reloadLibraries() {
