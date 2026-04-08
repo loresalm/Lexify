@@ -2,23 +2,14 @@
   import { createEventDispatcher } from "svelte";
 
   export let question;
-  export let fromLang; // This is the "Question" language key (e.g., 'english')
+  export let fromLang; 
 
   const dispatch = createEventDispatcher();
-
-  // 🔍 DEBUG LOGS
-  $: if (question || fromLang) {
-    console.log("--- Quiz Component Debug ---");
-    console.log("Question Language (fromLang):", fromLang);
-    // If fromLang is 'english', this shows question['english']
-    console.log("Displaying Sentence:", question?.[fromLang]); 
-  }
 
   let selected = null;
   let answered = false;
   let shuffledOptions = [];
 
-  // Reset state and reshuffle whenever the question object changes
   $: if (question) {
     selected = null;
     answered = false;
@@ -29,10 +20,7 @@
     if (answered) return;
     selected = option;
     answered = true;
-
-    dispatch("answered", {
-      correct: option === question.correct
-    });
+    dispatch("answered", { correct: option === question.correct });
   }
 
   function requestDelete() {
@@ -53,12 +41,12 @@
     </h2>
 
     <button
-      class="delete-circle"
+      class="delete-btn-rect"
       on:click={requestDelete}
       type="button"
       aria-label="Delete question"
     >
-      ×
+      Delete
     </button>
   </div>
 
@@ -69,6 +57,7 @@
       class:selected={option === selected}
       class:correct={answered && option === question.correct}
       class:wrong={answered && option === selected && option !== question.correct}
+      class="option-btn"
     >
       {option}
     </button>
@@ -76,84 +65,94 @@
 
   {#if answered}
     <p class={isCorrect ? "correct-text" : "wrong-text"}>
-      {isCorrect ? "✅ Correct!" : "❌ Wrong — correct answer shown above"}
+      {isCorrect ? "Correct" : "Wrong"}
     </p>
   {/if}
 </div>
+
 <style>
   .quiz {
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
+    gap: 0.4em; /* Slightly tighter gap */
   }
 
-  button {
-    padding: 0.6em;
+  /* General button styling for options */
+  .option-btn {
+    padding: 0.5em 0.7em; /* Slimmer padding */
     border-radius: 6px;
     border: none;
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem; /* REDUCED from 1rem */
+    transition: all 0.2s ease;
   }
 
-  button.selected {
+  .option-btn.selected {
     outline: 2px solid #888;
   }
 
-  button.correct {
+  .option-btn.correct {
     background-color: #4caf50;
     color: white;
   }
 
-  button.wrong {
+  .option-btn.wrong {
     background-color: #f44336;
     color: white;
   }
 
-  button:disabled {
+  .option-btn:disabled {
     cursor: not-allowed;
     opacity: 0.9;
   }
 
   .correct-text {
-    color: #4caf50;
+    color: #4caf50; /* Fixed the stray comma from your snippet */
     font-weight: bold;
+    text-align: center;
+    font-size: 0.85rem; /* Slightly smaller feedback */
   }
 
   .wrong-text {
     color: #f44336;
     font-weight: bold;
+    text-align: center;
+    font-size: 0.85rem; /* Slightly smaller feedback */
   }
+
   .question-header {
     display: flex;
     align-items: center;
     width: 100%;
+    margin-bottom: 0.75rem; /* Reduced margin */
   }
 
   .question-text {
+    font-size: 1rem; /* REDUCED from 1.1rem */
     margin: 0;
-    line-height: 1.3;
-    flex: 1;                  /* ← pushes button to the right */
+    line-height: 1.2;
+    flex: 1;
+    color: #2c003e;
+    font-weight: 600; /* Added weight so it stays readable at smaller size */
   }
 
-  button.delete-circle {
-    margin-left: 0.75rem;     /* ← space between text and button */
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
+  /* The New Rectangular Delete Button */
+  button.delete-btn-rect {
+    margin-left: 0.75rem;
+    padding: 0.3rem 0.6rem; /* Slimmer padding */
+    border-radius: 6px;
     background-color: #e03131;
     color: white;
     border: none;
-    font-size: 1.1rem;
+    font-size: 0.65rem;    /* Reduced to keep header height low */
     font-weight: bold;
-    line-height: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-transform: uppercase;
     cursor: pointer;
+    transition: background-color 0.2s;
   }
 
-  button.delete-circle:hover {
+  button.delete-btn-rect:hover {
     background-color: #c92a2a;
   }
-
-
 </style>

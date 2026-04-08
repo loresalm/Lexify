@@ -3,79 +3,81 @@
 
   const DAYS_IN_WEEK = 7;
   const WEEKS_TO_SHOW = 31;
-  const today = new Date();
 
   let calendar = [];
   let monthLabels = {};
 
-  // Reactive update whenever quizCounts changes
   $: {
-    // Build calendar grid: weeks x days
+    const today = new Date();
+    
+    // 1. Find the "End of the Current Week" (Next Sunday)
+    // d.getDay() is 0 for Sunday, 1 for Monday...
+    // We want to find how many days to add to get to Sunday (0)
+    const dayOfWeek = today.getDay(); 
+    const daysUntilSunday = dayOfWeek === 0 ? 0 : 7 - dayOfWeek;
+    
+    const endDate = new Date(today);
+    endDate.setDate(today.getDate() + daysUntilSunday);
+    endDate.setHours(0, 0, 0, 0);
+
+    // 2. Build grid
     calendar = Array.from({ length: WEEKS_TO_SHOW }, () =>
       Array(DAYS_IN_WEEK).fill({ date: null, count: 0 })
     );
 
+    const totalDays = WEEKS_TO_SHOW * DAYS_IN_WEEK;
     const allCounts = [];
 
-    const totalDays = WEEKS_TO_SHOW * DAYS_IN_WEEK;
+    // 3. Fill from the future-most Sunday backwards
+    for (let i = 0; i < totalDays; i++) {
+      const d = new Date(endDate);
+      d.setDate(endDate.getDate() - i);
+      
+      const dateStr = d.toISOString().slice(0, 10);
+      const count = parseInt(quizCounts[dateStr] || 0);
+      
+      // Calculate position in the 31-column grid
+      // (totalDays - 1 - i) ensures the oldest date is index 0, newest is index 216
+      const reverseIndex = totalDays - 1 - i;
+      const weekIndex = Math.floor(reverseIndex / DAYS_IN_WEEK);
+      const dayIndex = (d.getDay() + 6) % 7; // Convert to Mon=0, Sun=6
 
-    for (let dayOffset = 0; dayOffset < totalDays; dayOffset++) {
-      const d = new Date(today);
-      d.setDate(today.getDate() - (totalDays - 1 - dayOffset));
-
-      const date = d.toISOString().slice(0, 10);
-      const dayOfWeek = (d.getDay() + 6) % 7; // Monday = 0
-      const weekIndex = Math.floor(dayOffset / DAYS_IN_WEEK);
-
-      const count = parseInt(quizCounts[date] || 0);
+      calendar[weekIndex][dayIndex] = { date: dateStr, count };
       allCounts.push(count);
-
-      calendar[weekIndex][dayOfWeek] = { date, count };
     }
 
-    // Compute min and max for levels
-    const maxCount = Math.max(...allCounts, 1); // at least 1
-    calendar.levels = [0, 1, 2, 3, 4, 5]; // 6 levels
-
-    // Month labels: first week of each month
-    monthLabels = {};
-    for (let col = 0; col < WEEKS_TO_SHOW; col++) {
-      const week = calendar[col];
-      const firstDay = week.find(d => d.date);
-      if (!firstDay) continue;
-      const day = new Date(firstDay.date).getDate();
-      const month = new Date(firstDay.date).toLocaleString("default", { month: "short" });
-      if (day <= 7) monthLabels[col] = month;
-    }
-
+    // Stats for coloring
+    const maxCount = Math.max(...allCounts, 1);
     calendar.maxCount = maxCount;
+
+    // 4. Month labels
+    monthLabels = {};
+    calendar.forEach((week, col) => {
+      // Check the first day of the week
+      const firstDay = week[0]; 
+      if (firstDay && firstDay.date) {
+        const d = new Date(firstDay.date);
+        // If the 1st of the month falls in this week, label it
+        if (d.getDate() <= 7) {
+          monthLabels[col] = d.toLocaleString("default", { month: "short" });
+        }
+      }
+    });
   }
 
-  // Map count to one of 6 shades
   function color(count) {
     if (count === 0) return "#ebedf0";
-
-    const shades = [
-      "#c6e48b",
-      "#7bc96f",
-      "#239a3b",
-      "#196127",
-      "#144d24",
-      "#0f361a"
-    ];
-
-    const level = Math.min(
-      shades.length - 1,
-      Math.floor((count / calendar.maxCount) * shades.length)
-    );
-
+    const shades = ["#c6e48b", "#7bc96f", "#239a3b", "#196127", "#144d24", "#0f361a"];
+    const level = Math.min(shades.length - 1, Math.floor((count / calendar.maxCount) * shades.length));
     return shades[level];
   }
 </script>
 
 <div class="month-labels">
   {#each Array(WEEKS_TO_SHOW) as _, col}
-    <span class="month">{monthLabels[col] || ''}</span>
+    <div class="month-wrapper">
+       <span class="month">{monthLabels[col] || ''}</span>
+    </div>
   {/each}
 </div>
 
@@ -95,13 +97,22 @@
   .month-labels {
     display: grid;
     grid-template-columns: repeat(31, 9px);
-    gap: 2px;                /* 🔑 MUST match calendar */
+    gap: 2px;
     justify-content: center;
-    font-size: 0.6rem;
+    font-size: 0.5rem; /* Shrunk slightly to fit labels better */
     margin-bottom: 4px;
+    height: 12px;
+    color: #888;
   }
+  
+  .month-wrapper {
+    position: relative;
+  }
+
   .month {
-    text-align: center;
+    position: absolute;
+    left: 0;
+    white-space: nowrap;
   }
 
   .calendar {
@@ -115,7 +126,6 @@
   .cell {
     width: 9px;
     height: 9px;
-    border-radius: 2px;
+    border-radius: 1px;
   }
-
 </style>
